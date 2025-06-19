@@ -1,0 +1,20 @@
+
+.space{
+  margin-top: 150px;
+}
+
+/*================== media query:: 997px ==================*/
+@media (max-width: 997px) {
+.container_details ul .slick-dots{
+    bottom: 20px;
+}
+}
+/*================== media query:: 370 ==================*/
+@media (max-width: 370px) {
+ .slick-dots {
+    bottom: -35px;
+    left: 50%; 
+    transform: translate(-50%, -50%);
+}
+}
+

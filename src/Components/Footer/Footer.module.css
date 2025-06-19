@@ -1,0 +1,25 @@
+
+.search_content input{
+    outline: none;
+    border: none;
+    padding-left: 10px;
+    height: 40px;
+    border-radius: 5px;
+}
+
+@media (max-width: 370px) {
+.footer_logo{
+  height: 30px;
+}
+.search_content .btn {
+    width: 50px;
+}
+.footer_content{
+    flex-direction: column;
+    padding: 0;
+}
+.footer_content p{
+    font-size: 12px;
+}
+
+}
