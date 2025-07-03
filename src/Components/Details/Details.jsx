@@ -18,8 +18,7 @@ const Details = ()=> {
         slidesToScroll: 1,
         autoplay:true
       };
-
-      
+     
     const [details , setDetails] = useState({})
     const [isLoading , setIsLoading] = useState(true)
     const [errorMessage , setErrorMessage] = useState("")
@@ -27,7 +26,6 @@ const Details = ()=> {
     let {addToCart , sutNumOfCartItems} = useContext(CartContext)
     let prams = useParams()
  
-    //from url get id product 
     async function getProducts(id){
         setIsLoading(true)
         setErrorMessage("")
