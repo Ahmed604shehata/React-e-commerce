@@ -40,16 +40,10 @@ const Details = ()=> {
     } );
     }
 
-
-//this function it is a message to say the operation is successed
-//Gridge func => btn  call   function [addCart]  & function [addCart] call context [addToCart]
     async function addCart(id){
         let res = await addToCart(id)             
              if(res.data.status == "success"){
-
                  toast.success('product added successfully') ;
-
-                 //to updata the number of cart item in navbar
                  sutNumOfCartItems(res.data.numOfCartItems); 
              }else{
                  toast.error('product added successfully') ;
