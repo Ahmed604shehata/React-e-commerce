@@ -31,30 +31,6 @@ export default function CounterContextProvider(props){
 
 
 
-// import {createContext} from "react";
-
-// export let counterContext =  createContext();
-
-
-// export default function counterContextProvider(props){
-
-
-//     const [counter , setCounter] = useState(10)
-
-
-//     return <counterContext.Provider value={{counter}} >
-//         {props.children }
-//         </counterContext.Provider>
-// }
-
-
-
-
-
-
-
-
-
 
 
 
