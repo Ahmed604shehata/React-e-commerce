@@ -25,7 +25,7 @@ export default function FeatureProducts(){
    let res = await addToCart(id)    
         if(res.data.status == "success"){
             toast.success('product added successfully') ;
-            sutNumOfCartItems(res.data.numOfCartItems);    //to updata the number of cart item in navbar 
+            sutNumOfCartItems(res.data.numOfCartItems);   
         }else{
             toast.error('product added successfully') ;
         }
